@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import { HeroSection } from '@/components/landing/HeroSection'
 import { AboutComboSection } from '@/components/landing/AboutComboSection'
-import { ProductListSection } from '@/components/landing/ProductListSection'
+import { ProductGridSection } from '@/components/landing/ProductGridSection'
 import { BonusSection } from '@/components/landing/BonusSection'
 import { TargetAudienceSection } from '@/components/landing/TargetAudienceSection'
 import { OfferSection } from '@/components/landing/OfferSection'
@@ -21,7 +21,7 @@ const Index = () => {
     <>
       <HeroSection onCtaClick={handleScrollToOffer} />
       <AboutComboSection />
-      <ProductListSection />
+      <ProductGridSection />
       <BonusSection />
       <TargetAudienceSection />
       <OfferSection ref={offerSectionRef} />
