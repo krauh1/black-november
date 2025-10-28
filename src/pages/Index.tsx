@@ -1,11 +1,32 @@
-/* Home Page - Replace this page layout, components, content, behavior with what you want and translate to the language of the user */
+import { useRef } from 'react'
+import { HeroSection } from '@/components/landing/HeroSection'
+import { AboutComboSection } from '@/components/landing/AboutComboSection'
+import { ProductListSection } from '@/components/landing/ProductListSection'
+import { BonusSection } from '@/components/landing/BonusSection'
+import { TargetAudienceSection } from '@/components/landing/TargetAudienceSection'
+import { OfferSection } from '@/components/landing/OfferSection'
+import { TestimonialsSection } from '@/components/landing/TestimonialsSection'
+
 const Index = () => {
+  const offerSectionRef = useRef<HTMLDivElement>(null)
+
+  const handleScrollToOffer = () => {
+    offerSectionRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+    })
+  }
+
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">
-        This is a example page ready to be rewritten with your own content
-      </h1>
-    </div>
+    <>
+      <HeroSection onCtaClick={handleScrollToOffer} />
+      <AboutComboSection />
+      <ProductListSection />
+      <BonusSection />
+      <TargetAudienceSection />
+      <OfferSection ref={offerSectionRef} />
+      <TestimonialsSection />
+    </>
   )
 }
 
