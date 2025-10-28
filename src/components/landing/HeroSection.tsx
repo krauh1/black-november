@@ -7,18 +7,20 @@ type HeroSectionProps = {
 export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen text-center text-white overflow-hidden px-4">
-      <div className="absolute inset-0 bg-black -z-10" />
-      <div className="absolute inset-0 bg-grid-white/[0.05] -z-10" />
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] -z-10"></div>
-      <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-primary/20 rounded-full blur-3xl animate-spotlight -z-10" />
+      <div className="absolute inset-0 bg-black" />
+      <div className="absolute inset-0 bg-grid-white/[0.05]" />
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+      <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-primary/20 rounded-full blur-3xl animate-spotlight" />
 
       <div className="z-10 animate-fade-in-up">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
-          COMBO NOVEMBER BLACK
+        <h1 className="font-extrabold tracking-tight">
+          <span className="block text-5xl md:text-7xl lg:text-9xl text-white">
+            COMBO
+          </span>
+          <span className="block text-4xl md:text-6xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+            NOVEMBER BLACK
+          </span>
         </h1>
-        <p className="mt-2 text-lg font-medium text-primary-foreground">
-          EXERCITANDO O CÉREBRO
-        </p>
         <img
           src="https://img.usecurling.com/p/600/300?q=creative%20brain%20gears"
           alt="Combo de produtos"
