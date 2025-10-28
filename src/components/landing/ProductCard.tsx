@@ -8,7 +8,7 @@ type ProductCardProps = {
 export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <Card className="bg-card border-white/10 overflow-hidden group transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 flex flex-col">
-      <div className="aspect-w-16 aspect-h-9 overflow-hidden">
+      <div className="aspect-w-16 aspect-h-7 overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
