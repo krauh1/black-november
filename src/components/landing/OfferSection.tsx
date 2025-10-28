@@ -40,7 +40,7 @@ export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
         <div className="my-12">
           <CountdownTimer targetDate="2025-11-30T23:59:59" />
         </div>
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-2">
           <p className="text-3xl font-bold text-white/70 line-through">
             DE R$1.097,20
           </p>
@@ -48,7 +48,7 @@ export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
           <p className="text-7xl md:text-8xl font-extrabold text-primary">
             R$548
           </p>
-          <p className="text-2xl text-white/90">em 10x sem juros</p>
+          <p className="text-2xl text-white/90 -mt-2">em 10x sem juros</p>
         </div>
         <Button
           size="lg"

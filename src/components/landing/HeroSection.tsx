@@ -1,6 +1,4 @@
 import { Button } from '@/components/ui/button'
-import { ScrollDownIndicator } from '@/components/landing/ScrollDownIndicator'
-import { cn } from '@/lib/utils'
 
 type HeroSectionProps = {
   onCtaClick: () => void
@@ -16,11 +14,17 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
 
       <div className="z-10 animate-fade-in-up">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
-          COMBO BLACK NOVEMBER
+          COMBO NOVEMBER BLACK
         </h1>
         <p className="mt-2 text-lg font-medium text-primary-foreground">
           EXERCITANDO O CÉREBRO
         </p>
+        <img
+          src="https://img.usecurling.com/p/600/300?q=creative%20brain%20gears"
+          alt="Combo de produtos"
+          className="mt-6 mx-auto rounded-lg shadow-lg shadow-primary/20 animate-fade-in-up"
+          style={{ animationDelay: '0.1s' }}
+        />
         <p
           className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-white/80 animate-fade-in-up"
           style={{ animationDelay: '0.2s' }}
@@ -36,19 +40,6 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
           GARANTA SEU COMBO AGORA!
         </Button>
       </div>
-      <div
-        className={cn(
-          'absolute bottom-20 left-1/2 -translate-x-1/2 animate-fade-in-up',
-        )}
-        style={{ animationDelay: '0.5s' }}
-      >
-        <img
-          src="https://img.usecurling.com/i?q=brain&color=gradient&shape=outline"
-          alt="Exercitando o Cérebro"
-          className="w-24 h-24 opacity-30 animate-float"
-        />
-      </div>
-      <ScrollDownIndicator />
     </section>
   )
 }
