@@ -17,7 +17,7 @@ export const AboutComboSection = () => {
         )}
       >
         <h2 className="text-3xl md:text-4xl font-bold text-primary">
-          O QUE É O COMBO BLACK NOVEMBER?
+          O QUE É O COMBO NOVEMBER BLACK?
         </h2>
         <p className="mt-6 text-lg md:text-xl text-white/80">
           Durante o mês de novembro, você garante{' '}
