@@ -31,7 +31,7 @@ export const ProductGridSection = () => {
             Valor total de todos os produtos:
           </p>
           <p className="text-5xl md:text-7xl font-extrabold text-primary mt-2">
-            DE R${totalValue}
+            DE <span className="line-through">R${totalValue}</span>
           </p>
         </div>
       </div>

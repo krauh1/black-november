@@ -26,7 +26,7 @@ export const BonusSection = () => {
             Exclusivo
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-primary">
-            BÔNUS EXCLUSIVO BLACK NOVEMBER
+            BÔNUS EXCLUSIVO NOVEMBER BLACK
           </h2>
         </div>
         <Card className="bg-gradient-to-br from-primary/10 to-background border-primary/20 shadow-2xl shadow-primary/10">
@@ -39,18 +39,8 @@ export const BonusSection = () => {
                   Ao adquirir o combo, você garante também{' '}
                   <strong className="text-primary">
                     TODOS OS LANÇAMENTOS de 2026
-                  </strong>{' '}
-                  (Incluindo o final ainda deste ano), sem pagar nada a mais por
-                  isso!
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                <p className="text-lg text-white/90">
-                  Isso significa que você terá{' '}
-                  <strong className="text-primary">acesso vitalício</strong> a
-                  todo o conteúdo atual + novos e-books e kits que forem
-                  lançados ao longo do próximo ano.
+                  </strong>
+                  , sem pagar nada a mais por isso!
                 </p>
               </div>
             </div>
