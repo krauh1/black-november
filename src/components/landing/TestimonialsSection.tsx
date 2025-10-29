@@ -8,8 +8,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { testimonials } from '@/data/testimonials'
+import { MoveHorizontal } from 'lucide-react'
 
 export const TestimonialsSection = () => {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
@@ -34,20 +34,11 @@ export const TestimonialsSection = () => {
               <CarouselItem key={index}>
                 <div className="p-1">
                   <Card className="bg-card border-white/10">
-                    <CardContent className="flex flex-col items-center text-center p-8">
-                      <Avatar className="w-20 h-20 mb-4 border-2 border-primary">
-                        <AvatarImage
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                        />
-                        <AvatarFallback>
-                          {testimonial.name.charAt(0)}
-                        </AvatarFallback>
-                      </Avatar>
-                      <p className="text-lg font-medium text-white/90 italic">
+                    <CardContent className="flex flex-col items-center text-center p-8 min-h-[250px] justify-center">
+                      <p className="text-lg font-medium text-white/90 italic mb-6">
                         "{testimonial.quote}"
                       </p>
-                      <p className="mt-4 font-bold text-primary">
+                      <p className="mt-auto font-bold text-primary">
                         {testimonial.name}
                       </p>
                       <p className="text-sm text-muted-foreground">
@@ -62,6 +53,10 @@ export const TestimonialsSection = () => {
           <CarouselPrevious className="hidden md:flex" />
           <CarouselNext className="hidden md:flex" />
         </Carousel>
+        <div className="mt-4 flex md:hidden justify-center items-center text-muted-foreground">
+          <MoveHorizontal className="w-5 h-5 mr-2" />
+          <span className="text-sm">Arraste para o lado</span>
+        </div>
       </div>
     </section>
   )
