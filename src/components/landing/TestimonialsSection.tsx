@@ -43,10 +43,10 @@ export const TestimonialsSection = () => {
                 <div className="p-1">
                   <Card className="bg-card border-white/10">
                     <CardContent className="flex flex-col items-center text-center p-8 min-h-[250px] md:min-h-[300px] justify-center">
-                      <p className="text-lg font-medium text-white/90 italic mb-4">
+                      <p className="text-lg font-medium text-white/90 italic mb-6">
                         "{testimonial.quote}"
                       </p>
-                      <div className="mt-auto pt-4">
+                      <div>
                         <p className="font-bold text-primary">
                           {testimonial.name}
                         </p>

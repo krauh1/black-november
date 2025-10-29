@@ -54,7 +54,7 @@ export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
         </div>
         <Button
           size="lg"
-          className="mt-10 text-lg md:text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 py-6 md:px-12 md:py-8 shadow-lg shadow-primary/30 transition-all duration-300 hover:scale-105 animate-pulse-glow h-auto whitespace-normal leading-tight"
+          className="mt-10 text-xl md:text-2xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 py-4 md:px-12 md:py-8 shadow-lg shadow-primary/30 transition-all duration-300 hover:scale-105 animate-pulse-glow h-auto whitespace-normal leading-tight"
           onClick={handleCtaClick}
         >
           ADQUIRA AGORA O COMBO BLACK NOVEMBER!
