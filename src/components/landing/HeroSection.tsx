@@ -22,7 +22,7 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
           </span>
         </h1>
         <img
-          src="https://exercitandoocerebro.com/black-images/12.jpg"
+          src="https://img.usecurling.com/p/600/300?q=creative%20brain%20gears"
           alt="Combo de produtos"
           className="mt-6 mx-auto rounded-lg shadow-lg shadow-primary/20 animate-fade-in-up"
           style={{ animationDelay: '0.1s' }}
