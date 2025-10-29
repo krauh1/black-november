@@ -21,7 +21,7 @@ export const TestimonialsSection = () => {
   return (
     <section
       ref={ref as React.RefObject<HTMLDivElement>}
-      className="py-16 md:py-28 bg-white/5 px-4"
+      className="py-16 md:py-28 bg-white/5"
     >
       <div
         className={cn(

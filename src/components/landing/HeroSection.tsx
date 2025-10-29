@@ -6,7 +6,7 @@ type HeroSectionProps = {
 
 export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen text-center text-white overflow-hidden px-4">
+    <section className="relative flex flex-col items-center justify-center min-h-screen text-center text-white overflow-hidden px-6">
       <div className="absolute inset-0 bg-black" />
       <div className="absolute inset-0 bg-grid-white/[0.05]" />
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />

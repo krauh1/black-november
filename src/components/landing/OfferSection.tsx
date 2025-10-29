@@ -18,7 +18,7 @@ export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
   }
 
   return (
-    <section ref={ref} className="py-16 md:py-28 px-4 overflow-hidden">
+    <section ref={ref} className="py-16 md:py-28 overflow-hidden">
       <div
         ref={animationRef as React.RefObject<HTMLDivElement>}
         className={cn(
