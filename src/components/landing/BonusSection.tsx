@@ -26,7 +26,7 @@ export const BonusSection = () => {
             Exclusivo
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-primary">
-            BÔNUS EXCLUSIVO NOVEMBER BLACK
+            BÔNUS EXCLUSIVO BLACK NOVEMBER
           </h2>
         </div>
         <Card className="bg-gradient-to-br from-primary/10 to-background border-primary/20 shadow-2xl shadow-primary/10">

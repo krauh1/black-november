@@ -18,7 +18,7 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
             COMBO
           </span>
           <span className="block text-4xl md:text-6xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
-            NOVEMBER BLACK
+            BLACK NOVEMBER
           </span>
         </h1>
         <img
