@@ -4,7 +4,7 @@ export const Footer = () => {
     <footer className="w-full py-8 border-t border-white/10">
       <div className="container mx-auto text-center text-muted-foreground">
         <img
-          src="https://img.usecurling.com/i?q=brain&color=white&shape=outline"
+          src="https://exercitandoocerebro.com/black-images/logobranco.svg"
           alt="Exercitando o Cérebro Logo"
           className="w-12 h-12 mx-auto mb-4 opacity-50"
         />
