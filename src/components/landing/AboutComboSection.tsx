@@ -8,7 +8,7 @@ export const AboutComboSection = () => {
   return (
     <section
       ref={ref as React.RefObject<HTMLDivElement>}
-      className="py-20 md:py-28 text-center px-4"
+      className="py-16 md:py-28 text-center px-4"
     >
       <div
         className={cn(
