@@ -5,14 +5,16 @@ import { Button } from '@/components/ui/button'
 import { CountdownTimer } from '@/components/landing/CountdownTimer'
 import { Badge } from '@/components/ui/badge'
 
+const HOTMART_CHECKOUT_URL =
+  'https://pay.hotmart.com/L102589000U?sck=HOTMART_PRODUCT_PAGE&off=kwzv8qsa&hotfeature=32&_gl=1*f1ikau*_gcl_au*ODc5MzQ3MzMuMTc1NTQ2NTYwMC45NTUxNjUxNzQuMTc2MTIyNzU1Ny4xNzYxMjI3NjI3*FPAU*ODc5MzQ3MzMuMTc1NTQ2NTYwMA..*_ga*MTYwMDI5NjQ1OS4xNzU1NDY1NTk5*_ga_GQH2V1F11Q*czE3NjE2OTY0MjkkbzkkZzAkdDE3NjE2OTY0MjkkajYwJGwwJGgw&bid=1761696456075'
+
 export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
   const { ref: animationRef, isVisible } = useScrollAnimation({
     threshold: 0.2,
   })
 
   const handleCtaClick = () => {
-    // In a real application, this would redirect to a checkout page.
-    console.log('Redirecting to checkout...')
+    window.location.href = HOTMART_CHECKOUT_URL
   }
 
   return (
