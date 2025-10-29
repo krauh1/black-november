@@ -43,6 +43,15 @@ export const BonusSection = () => {
                   , sem pagar nada a mais por isso!
                 </p>
               </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                <p className="text-lg text-white/90">
+                  Isso significa que você terá{' '}
+                  <strong className="text-primary">acesso vitalício</strong> a
+                  todo o conteúdo atual + novos e-books e kits que forem
+                  lançados ao longo do próximo ano.
+                </p>
+              </div>
             </div>
           </CardContent>
         </Card>
