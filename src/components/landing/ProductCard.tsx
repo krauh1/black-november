@@ -15,11 +15,11 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
       </div>
-      <CardContent className="p-4 flex flex-col flex-grow">
-        <h3 className="font-semibold text-white/90 flex-grow">
+      <CardContent className="p-3 md:p-4 flex flex-col flex-grow">
+        <h3 className="text-sm md:text-base font-semibold text-white/90 flex-grow">
           {product.name}
         </h3>
-        <p className="mt-2 text-lg font-bold text-muted-foreground line-through">
+        <p className="mt-2 text-base md:text-lg font-bold text-muted-foreground line-through">
           R${product.price}
         </p>
       </CardContent>

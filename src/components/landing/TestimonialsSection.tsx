@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { testimonials } from '@/data/testimonials'
 import { MoveHorizontal } from 'lucide-react'
 
@@ -34,16 +35,27 @@ export const TestimonialsSection = () => {
               <CarouselItem key={index}>
                 <div className="p-1">
                   <Card className="bg-card border-white/10">
-                    <CardContent className="flex flex-col items-center text-center p-8 min-h-[250px] justify-center">
-                      <p className="text-lg font-medium text-white/90 italic mb-6">
+                    <CardContent className="flex flex-col items-center text-center p-8 min-h-[250px] md:min-h-[300px] justify-center">
+                      <Avatar className="hidden md:flex mb-4 w-16 h-16">
+                        <AvatarImage
+                          src={testimonial.avatar}
+                          alt={testimonial.name}
+                        />
+                        <AvatarFallback>
+                          {testimonial.name.charAt(0)}
+                        </AvatarFallback>
+                      </Avatar>
+                      <p className="text-lg font-medium text-white/90 italic mb-4">
                         "{testimonial.quote}"
                       </p>
-                      <p className="mt-auto font-bold text-primary">
-                        {testimonial.name}
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        {testimonial.role}
-                      </p>
+                      <div className="mt-auto pt-4">
+                        <p className="font-bold text-primary">
+                          {testimonial.name}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          {testimonial.role}
+                        </p>
+                      </div>
                     </CardContent>
                   </Card>
                 </div>
