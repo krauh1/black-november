@@ -16,7 +16,7 @@ export const productCategories: ProductCategory[] = [
       {
         name: '15 Atividades de Desenho',
         price: '12,90',
-        image: 'https://exercitandoocerebro.com/black-images/atencao.png',
+        image: 'https://exercitandoocerebro.com/black-images/teste.jpg',
       },
       {
         name: 'Exercitando a Memória',
