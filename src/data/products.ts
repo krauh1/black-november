@@ -16,7 +16,7 @@ export const productCategories: ProductCategory[] = [
       {
         name: '15 Atividades de Desenho',
         price: '12,90',
-        image: 'https://img.usecurling.com/p/400/300?q=child%20drawing',
+        image: 'https://exercitandoocerebro.com/black-images/atencao.png',
       },
       {
         name: 'Exercitando a Memória',
