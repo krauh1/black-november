@@ -16,7 +16,7 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
           className="w-full max-w-3xl mx-auto animate-fade-in-up"
         />
         <img
-          src="/Hero.png"
+          src="/Hero2.png"
           alt="Combo de produtos"
           className="mt-6 mx-auto rounded-lg shadow-lg shadow-primary/20 animate-fade-in-up"
           style={{ animationDelay: '0.1s' }}
