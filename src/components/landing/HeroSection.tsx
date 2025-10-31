@@ -16,7 +16,7 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
           className="w-full max-w-3xl mx-auto animate-fade-in-up"
         />
         <img
-          src="https://img.usecurling.com/p/600/300?q=creative%20brain%20gears"
+          src="/Hero.svg"
           alt="Combo de produtos"
           className="mt-6 mx-auto rounded-lg shadow-lg shadow-primary/20 animate-fade-in-up"
           style={{ animationDelay: '0.1s' }}
