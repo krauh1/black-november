@@ -11,7 +11,7 @@ export const HeroSection = ({ onCtaClick }: HeroSectionProps) => {
       <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-primary/20 rounded-full blur-3xl animate-spotlight" />
       <div className="z-10 animate-fade-in-up">
         <img
-          src="/Combo.svg"
+          src="/Combo2.svg"
           alt="Combo Black November"
           className="w-full max-w-3xl mx-auto animate-fade-in-up"
         />
