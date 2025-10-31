@@ -47,10 +47,12 @@ export const OfferSection = forwardRef<HTMLDivElement>((_, ref) => {
             DE R$1.097,20
           </p>
           <p className="text-white/80 text-xl">POR</p>
-          <p className="text-7xl md:text-8xl font-extrabold text-primary">
-            R$548
+          <p className="text-5xl md:text-6xl font-extrabold text-primary leading-tight">
+            10x R$54,80
           </p>
-          <p className="text-2xl text-white/90 -mt-2">em 10x sem juros</p>
+          <p className="text-xl text-white/90 mt-1">
+            sem juros ou à vista por R$548
+          </p>
         </div>
         <Button
           size="lg"
